@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --lighting-color: red;
+  --dark-color: #003d62;
+  --darker-color: #003251;
+  --secondary-color: #fff700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(3, 0, 12);
+}
+
+html {
+  font-size: 62.5%;
+}
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  color: white;
+}
+body {
+  font-size: 1.4rem;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img{
+  border-radius: 20px;
+  overflow: hidden;
+}
+.logo h1{
+  margin-left: 20px;
+  font-size: 26px;
+  
+}
+.sapreator1{
+  margin-left: 600px;
+}
+nav{
+  position: relative;
+  background-color: #222;
+  width: 524;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+nav a{
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 0 23px;
+  z-index: 1;
+}
+
+nav span{
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 95px;
+  height: 100%;
+  background: linear-gradient(45deg,#4f1919,#ff3333);
+  border-radius: 8px;
+}
+nav a:nth-child(1):hover~span{
+  left: 0px;
+}
+nav a:nth-child(2):hover~span{
+  left: 95px;
+}
+nav a:nth-child(3):hover~span{
+  left: 190px;
+}
+
+
+
+.logo {
+    display: flex;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo,h1{
+    align-self: center;
+}
+#logo img {
+    margin-right: 10px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 30%;
+    overflow: hidden;
+}
+.main-container1{
+  background-image: linear-gradient(250deg,rgb(255, 0, 0),rgb(89, 0, 255));
+  margin-top: -90px;
+}
+.sapreator2{
+  height: 90px;
+}
+.section1{
+    display: flex;
+}
+.section1 h1{
+    color: red;
+    font-size: 50px;
+}
+.section1 #image1 img {
+  height: 300px;
+  margin: 50px 20px 20px 20px;
+}
+
+#container1{
+    margin: 20px;
+    margin-bottom: 20px;
+
+}
+#container1 i{
+    color: red;
+    margin-right: 6px;
+}
+#container1 ul{
+    margin-top: 10px;
+
+}
+.button-container {
+    text-align: center;
+}
+
+.download_button {
+  margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #ea0000c0;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.download_button:hover {
+    background-color: #3700b3;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.download_button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.platform_icons ul{
+  display: flex;
+  align-items: center;
+}
+.platform_icons li{
+  margin: 5px;
+  margin-bottom: 40px;
+}
+.platform_icons img{
+    height: 45px;
+}
+
+.section2{
+  display: flex;
+  background-color: hsl(247, 100%, 7%);
+  height: 350px;
+}
+.section2 img{
+  margin: 30px 20px 20px 20px;
+  height: 300px;
+}
+.section2 #content h1{
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 10px;
+
+}
+.section2 #content p{
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.section3{
+  margin-top: 40px;
+  display: flex;
+  background-color: hsl(0, 100%, 7%);
+  height: 450px;
+}
+.section3 img{
+  margin: 30px 20px 20px 20px;
+  height: 400px;
+  width: 700px;
+}
+.section3 h4 {
+  margin-top: 20px;
+  color: red;
+  font-size: 15px;
+  text-align: center;
+}
+.section3 #content h1{
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 5px;
+
+}
+.section3 #content p{
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 20px;
+}
